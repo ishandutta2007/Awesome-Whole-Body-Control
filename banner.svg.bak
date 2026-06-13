@@ -61,7 +61,7 @@
   <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="42" font-weight="bold" fill="#f8fafc" filter="url(#shadow)">
     AWESOME WHOLE-BODY CONTROL
   </text>
-  <text x="50%" y="80%" dominant-baseline="middle" text-anchor="middle" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" fill="#94a3b8" letter-spacing="2">
+  <text x="50%" y="85%" dominant-baseline="middle" text-anchor="middle" font-family="Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="18" fill="#94a3b8" letter-spacing="2">
     The Definitive Humanoid Robotics Ecosystem
   </text>
 
