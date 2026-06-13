@@ -46,31 +46,31 @@ Commercial platforms and SDKs offering industry-grade Whole-Body Control interfa
 
 The heart of the robotics research community. These libraries provide the mathematical foundations for modern humanoid control.
 
-- **[MuJoCo](https://github.com/google-deepmind/mujoco)** ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/mujoco?style=flat-square)  
+- **[MuJoCo](https://github.com/google-deepmind/mujoco)** [![GitHub stars](https://img.shields.io/github/stars/google-deepmind/mujoco?style=flat-square)](https://github.com/google-deepmind/mujoco/stargazers)  
   🚀 *The gold standard for physics simulation.* High-performance contact dynamics for RL-based control.
 
-- **[Drake](https://github.com/RobotLocomotion/drake)** ![GitHub stars](https://img.shields.io/github/stars/RobotLocomotion/drake?style=flat-square)  
+- **[Drake](https://github.com/RobotLocomotion/drake)** [![GitHub stars](https://img.shields.io/github/stars/RobotLocomotion/drake?style=flat-square)](https://github.com/RobotLocomotion/drake/stargazers)  
   🛠️ *Model-based design & optimization.* Comprehensive C++ toolbox for control, estimation, and planning.
 
-- **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)** ![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=flat-square)  
+- **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)** [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=flat-square)](https://github.com/stack-of-tasks/pinocchio/stargazers)  
   ⚡ *Blazing fast rigid body dynamics.* The core library for calculating Jacobians, mass matrices, and kinematics.
 
-- **[OCS2](https://github.com/leggedrobotics/ocs2)** ![GitHub stars](https://img.shields.io/github/stars/leggedrobotics/ocs2?style=flat-square)  
+- **[OCS2](https://github.com/leggedrobotics/ocs2)** [![GitHub stars](https://img.shields.io/github/stars/leggedrobotics/ocs2?style=flat-square)](https://github.com/leggedrobotics/ocs2/stargazers)  
   📉 *Optimal Control for Switched Systems.* Specialized in legged robot locomotion and whole-body tasks.
 
-- **[Crocoddyl](https://github.com/loco-3d/crocoddyl)** ![GitHub stars](https://img.shields.io/github/stars/loco-3d/crocoddyl?style=flat-square)  
+- **[Crocoddyl](https://github.com/loco-3d/crocoddyl)** [![GitHub stars](https://img.shields.io/github/stars/loco-3d/crocoddyl?style=flat-square)](https://github.com/loco-3d/crocoddyl/stargazers)  
   🧬 *Contact-consistent trajectory optimization.* Built on Pinocchio for highly dynamic maneuvers.
 
-- **[Pink](https://github.com/stephane-caron/pink)** ![GitHub stars](https://img.shields.io/github/stars/stephane-caron/pink?style=flat-square)  
+- **[Pink](https://github.com/stephane-caron/pink)** [![GitHub stars](https://img.shields.io/github/stars/stephane-caron/pink?style=flat-square)](https://github.com/stephane-caron/pink/stargazers)  
   🐍 *Pythonic Inverse Kinematics.* Easy-to-use WBC for rapid prototyping and simulation.
 
-- **[RBDL](https://github.com/rbdl/rbdl)** ![GitHub stars](https://img.shields.io/github/stars/rbdl/rbdl?style=flat-square)  
+- **[RBDL](https://github.com/rbdl/rbdl)** [![GitHub stars](https://img.shields.io/github/stars/rbdl/rbdl?style=flat-square)](https://github.com/rbdl/rbdl/stargazers)  
   📦 *Rigid Body Dynamics Library.* Lightweight and efficient C++ implementation for real-time control.
 
-- **[qpOASES](https://github.com/coin-or/qpOASES)** ![GitHub stars](https://img.shields.io/github/stars/coin-or/qpOASES?style=flat-square)  
+- **[qpOASES](https://github.com/coin-or/qpOASES)** [![GitHub stars](https://img.shields.io/github/stars/coin-or/qpOASES?style=flat-square)](https://github.com/coin-or/qpOASES/stargazers)  
   ⚖️ *Real-time QP Solver.* The workhorse for constrained optimization in whole-body control.
 
-- **[RaiSim](https://github.com/raisimTech/raisimLib)** ![GitHub stars](https://img.shields.io/github/stars/raisimTech/raisimLib?style=flat-square)  
+- **[RaiSim](https://github.com/raisimTech/raisimLib)** [![GitHub stars](https://img.shields.io/github/stars/raisimTech/raisimLib?style=flat-square)](https://github.com/raisimTech/raisimLib/stargazers)  
   🐕 *Legged Robotics Physics.* Optimized for fast simulation of complex contact scenarios.
 
 ---
