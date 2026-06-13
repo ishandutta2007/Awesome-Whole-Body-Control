@@ -1,101 +1,108 @@
-# Awesome-Whole-Body-Control
-## Top Whole-Body Control Softwares for Humanoid Robots Ecosystem
+<div align="center">
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Whole-Body Control, Dynamics & Locomotion for Humanoids*  
-**Last updated: March 2026**
+<img src="banner.svg" alt="Awesome Whole-Body Control Banner - Humanoid Robotics Ecosystem" width="800">
 
-This repository tracks notable **platforms** and **open-source projects** for **Whole-Body Control (WBC)** in humanoid robots. These tools solve the complex problem of coordinating all joints simultaneously to achieve balanced, dynamic, and compliant locomotion, manipulation, and interaction in real-world environments.
+# 🤖 Awesome Whole-Body Control 🦾
+### The Definitive Ecosystem for Humanoid Robot Dynamics, Locomotion & Manipulation
 
-**Examples** include Pinocchio, RBDL, NVIDIA GR00T-WholeBodyControl, OpenLoong (Dyn-Control), ARC-OPT WBC, qpOASES, eiquadprog, Pink, Crocoddyl, OCS2, KungfuBot / PBHC, and OpenWBT (the category leaders). Tools listed here emphasize **real-time performance**, quadratic programming solvers, hierarchical control, and integration with modern simulators.
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/stack-of-tasks/pinocchio/graphs/commit-activity)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Humanoid Robotics](https://img.shields.io/badge/Robotics-Humanoid-blue.svg)](https://github.com/topics/humanoid-robot)
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, local development, full customization, and research reproducibility — ideal for robotics researchers, humanoid developers, and open-source contributors.
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## Table of Contents
-- [Proprietary / Commercial Tools](#saas-products)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Proprietary / Commercial Tools
-
-This section lists commercial platforms and SDKs that provide advanced whole-body control capabilities, often integrated with specific hardware.
-
-| Product | Company Size (Valuation) | Pricing | Free Tier / Limits | Description |
-| :--- | :--- | :--- | :--- | :--- |
-| **[NVIDIA GR00T-WBC](https://nvidia-isaac.github.io/GR00T-WholeBodyControl/)** | **~$3.5 Trillion** | Hardware Cost (Jetson) | **Free for Individuals** | Foundation models and Isaac Sim/Lab are free for researchers and small teams. |
-| **[Flowstate (Intrinsic)](https://intrinsic.ai/)** | **~$2.1 Trillion** (Alphabet) | **Contact for Quote** | **Demo by request** | Alphabet's AI-enabled motion planning and whole-body force control platform. |
-| **[Spot SDK (Boston Dynamics)](https://bostondynamics.com/)** | **~$25 Billion** (Est.) | **$75,000+** | **None** | Advanced API for balance and locomotion; requires enterprise license. |
-| **[Unitree SDK (EDU)](https://www.unitree.com/)** | **~$1.5 Billion** | **$43,900 – $73,900** | **None** | Required for low-level whole-body control on G1 and H1 humanoids. |
-| **[OpenLoong (Dyn-Control)](https://openloong.org.cn/)** | **~$140 Million** (Reg. Cap) | **Free** (Apache 2.0) | **Unlimited** | Open-source control stack for the Qinglong humanoid series. |
-
-### Advanced Tools
-
-**Other notable mentions**: Commercial extensions of Pinocchio and various vendor-specific WBC stacks from companies like PAL Robotics (TALOS/REEM-C) and Agility Robotics (Digit).
-
-## Open-Source GitHub Projects
-
-This section lists the most active and widely used open-source projects for whole-body control, dynamics, and simulation, sorted by GitHub popularity.
-
-- **[MuJoCo](https://github.com/google-deepmind/mujoco)** ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/mujoco?style=flat-square)  
-  Advanced physics simulator with state-of-the-art contact dynamics, widely used for training whole-body control policies via reinforcement learning.
-
-- **[Drake](https://github.com/RobotLocomotion/drake)** ![GitHub stars](https://img.shields.io/github/stars/RobotLocomotion/drake?style=flat-square)  
-  A C++ toolbox for model-based design and optimization, providing industry-grade tools for control, estimation, and motion planning.
-
-- **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)** ![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=flat-square)  
-  The industry-standard rigid body dynamics library. Fast, efficient, and the foundation for many humanoid whole-body control stacks.
-
-- **[OCS2](https://github.com/leggedrobotics/ocs2)** ![GitHub stars](https://img.shields.io/github/stars/leggedrobotics/ocs2?style=flat-square)  
-  Open-source Control Software 2 — a powerful toolbox for optimal control and whole-body control of legged robots (ETH Zürich).
-
-- **[Crocoddyl](https://github.com/loco-3d/crocoddyl)** ![GitHub stars](https://img.shields.io/github/stars/loco-3d/crocoddyl?style=flat-square)  
-  Optimal control library for complex robotics tasks with excellent support for trajectory optimization and contact-rich scenarios.
-
-- **[Pink](https://github.com/stephane-caron/pink)** ![GitHub stars](https://img.shields.io/github/stars/stephane-caron/pink?style=flat-square)  
-  A Python library for inverse kinematics and whole-body control built on top of Pinocchio, designed for rapid prototyping.
-
-- **[RBDL (Rigid Body Dynamics Library)](https://github.com/rbdl/rbdl)** ![GitHub stars](https://img.shields.io/github/stars/rbdl/rbdl?style=flat-square)  
-  Highly efficient C++ library for rigid body dynamics calculations, optimized for real-time control.
-
-- **[qpOASES](https://github.com/coin-or/qpOASES)** ![GitHub stars](https://img.shields.io/github/stars/coin-or/qpOASES?style=flat-square)  
-  Reliable and fast quadratic programming solver widely used in real-time whole-body control implementations.
-
-- **[RaiSim](https://github.com/raisimTech/raisimLib)** ![GitHub stars](https://img.shields.io/github/stars/raisimTech/raisimLib?style=flat-square)  
-  High-performance physics engine optimized for legged robot simulation and whole-body control research.
-
-- **[eiquadprog](https://github.com/stack-of-tasks/eiquadprog)** ![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/eiquadprog?style=flat-square)  
-  Efficient C++ quadratic programming solver optimized for hierarchical whole-body control.
-
-- **[ARC-OPT WBC](https://github.com/search?q=arc-opt+wbc)**  
-  Open-source whole-body control solver with advanced optimization capabilities.
-
-- **[OpenWBT](https://github.com/search?q=openwbt)**  
-  Open Whole-Body Toolbox for humanoid control with modular architecture.
-
-- **[KungfuBot / PBHC](https://github.com/search?q=pbhc+humanoid)**  
-  Priority-based hierarchical whole-body control frameworks for dynamic humanoid locomotion.
-
-**Frameworks for building custom WBC systems**: Combine **Pinocchio** + **Crocoddyl** + **qpOASES** with **ROS2** and simulators (MuJoCo, Isaac Gym) for full humanoid whole-body control stacks.
-
-## How to Contribute
-
-1. Fork the repo.
-2. Add/edit entries in `README.md` (follow existing format).
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. Submit PR with a short explanation.
-
-Star the repo if you find it useful!
-
-## Disclaimer
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-- Whole-body control for physical robots requires careful safety validation and testing in simulation before real hardware deployment.
-- Performance depends heavily on hardware, solver tuning, and specific robot model.
+**Curated list of state-of-the-art SaaS platforms, commercial SDKs, and open-source GitHub projects focused on Whole-Body Control (WBC) for humanoid robots.**
 
 ---
 
-**Made for robotics researchers, humanoid developers, and control engineers.**  
-Let's make whole-body control more accessible, efficient, and open.
+[**Explore Projects**](#proprietary--commercial-tools) • [**Contribute**](#how-to-contribute) • [**Community**](#-community--resources)
+
+</div>
+
+## 🌟 Introduction
+
+This repository is a comprehensive guide to the **Whole-Body Control (WBC)** ecosystem. WBC is the core technology that enables humanoid robots to perform dynamic, balanced, and multi-contact tasks. Whether you are a robotics researcher, a controls engineer, or a humanoid developer, this list provides the tools needed to solve complex dynamics, hierarchical optimization, and real-time motion planning.
+
+### 🔑 Key Keywords
+`Humanoid Robots` • `Whole-Body Control` • `Inverse Dynamics` • `Quadratic Programming` • `Model Predictive Control` • `Optimal Control` • `Robotics SDK` • `Physics Simulation`
+
+---
+
+## 🏗️ Proprietary / Commercial Tools
+
+Commercial platforms and SDKs offering industry-grade Whole-Body Control interfaces, typically bundled with high-performance hardware.
+
+| Product | Company Size (Valuation) | Pricing | Free Tier / Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[NVIDIA GR00T-WBC](https://nvidia-isaac.github.io/GR00T-WholeBodyControl/)** | **~$3.5 Trillion** | Hardware Cost | **Free for Individuals** | Advanced foundation models and Isaac Sim/Lab for research. |
+| **[Flowstate (Intrinsic)](https://intrinsic.ai/)** | **~$2.1 Trillion** | **Contact Quote** | **Demo by request** | AI-enabled motion planning and whole-body force control. |
+| **[Spot SDK (Boston Dynamics)](https://bostondynamics.com/)** | **~$25 Billion** | **$75,000+** | **None** | High-level API for balance, locomotion, and manipulation. |
+| **[Unitree SDK (EDU)](https://www.unitree.com/)** | **~$1.5 Billion** | **$43,900+** | **None** | Low-level WBC access for G1 and H1 humanoid platforms. |
+| **[OpenLoong (Dyn-Control)](https://openloong.org.cn/)** | **~$140 Million** | **Free** (Apache 2.0) | **Unlimited** | Control stack for the Qinglong humanoid research series. |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+The heart of the robotics research community. These libraries provide the mathematical foundations for modern humanoid control.
+
+- **[MuJoCo](https://github.com/google-deepmind/mujoco)** ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/mujoco?style=flat-square)  
+  🚀 *The gold standard for physics simulation.* High-performance contact dynamics for RL-based control.
+
+- **[Drake](https://github.com/RobotLocomotion/drake)** ![GitHub stars](https://img.shields.io/github/stars/RobotLocomotion/drake?style=flat-square)  
+  🛠️ *Model-based design & optimization.* Comprehensive C++ toolbox for control, estimation, and planning.
+
+- **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)** ![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=flat-square)  
+  ⚡ *Blazing fast rigid body dynamics.* The core library for calculating Jacobians, mass matrices, and kinematics.
+
+- **[OCS2](https://github.com/leggedrobotics/ocs2)** ![GitHub stars](https://img.shields.io/github/stars/leggedrobotics/ocs2?style=flat-square)  
+  📉 *Optimal Control for Switched Systems.* Specialized in legged robot locomotion and whole-body tasks.
+
+- **[Crocoddyl](https://github.com/loco-3d/crocoddyl)** ![GitHub stars](https://img.shields.io/github/stars/loco-3d/crocoddyl?style=flat-square)  
+  🧬 *Contact-consistent trajectory optimization.* Built on Pinocchio for highly dynamic maneuvers.
+
+- **[Pink](https://github.com/stephane-caron/pink)** ![GitHub stars](https://img.shields.io/github/stars/stephane-caron/pink?style=flat-square)  
+  🐍 *Pythonic Inverse Kinematics.* Easy-to-use WBC for rapid prototyping and simulation.
+
+- **[RBDL](https://github.com/rbdl/rbdl)** ![GitHub stars](https://img.shields.io/github/stars/rbdl/rbdl?style=flat-square)  
+  📦 *Rigid Body Dynamics Library.* Lightweight and efficient C++ implementation for real-time control.
+
+- **[qpOASES](https://github.com/coin-or/qpOASES)** ![GitHub stars](https://img.shields.io/github/stars/coin-or/qpOASES?style=flat-square)  
+  ⚖️ *Real-time QP Solver.* The workhorse for constrained optimization in whole-body control.
+
+- **[RaiSim](https://github.com/raisimTech/raisimLib)** ![GitHub stars](https://img.shields.io/github/stars/raisimTech/raisimLib?style=flat-square)  
+  🐕 *Legged Robotics Physics.* Optimized for fast simulation of complex contact scenarios.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome contributions from the community! 🚀
+
+1. **Fork** the repository.
+2. **Add** your entry to `README.md` (ensure it's in the correct sorted order).
+3. **Verify** all links and provide a concise 1-2 sentence description.
+4. **Submit** a Pull Request with a clear explanation of why the tool is "Awesome".
+
+---
+
+## 📚 Community & Resources
+
+- [Reddit Robotics](https://reddit.com/r/robotics)
+- [IEEE Spectrum Robotics](https://spectrum.ieee.org/robotics)
+- [Awesome Humanoids List](https://github.com/topics/humanoid-robot)
+
+---
+
+## ⚠️ Disclaimer
+
+- This is a community-curated list and does not constitute an endorsement.
+- Robotics software should be tested in **simulation** before deployment on physical hardware.
+- Use at your own risk. Safety first! 🛡️
+
+---
+
+<div align="center">
+  <b>Made with ❤️ for the Robotics Community</b><br>
+  <i>Join us in building the future of humanoid motion.</i>
+</div>
