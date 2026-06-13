@@ -21,17 +21,19 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Proprietary / Commercial Tools
 
-### Core Whole-Body Control Solutions
+This section lists commercial platforms and SDKs that provide advanced whole-body control capabilities, often integrated with specific hardware.
 
-- **[NVIDIA GR00T-WholeBodyControl](https://nvidia.com/)**  
-  Advanced whole-body control framework integrated into NVIDIA’s GR00T humanoid platform for high-performance dynamic locomotion.
-
-- **[OpenLoong (Dyn-Control)](https://openloong.org.cn/)**  
-  Dynamic control stack developed for the OpenLoong humanoid robot series with strong whole-body capabilities.
+| Product | Pricing | Free Tier / Limits | Description |
+| :--- | :--- | :--- | :--- |
+| **[NVIDIA GR00T-WBC](https://nvidia.com/)** | Hardware Cost (Jetson) | **Free for Individuals** | Foundation models and Isaac Sim/Lab are free for researchers and small teams. |
+| **[OpenLoong (Dyn-Control)](https://openloong.org.cn/)** | **Free** (Apache 2.0) | **Unlimited** | Open-source control stack for the Qinglong humanoid series. |
+| **[Unitree SDK (EDU)](https://www.unitree.com/)** | **$43,900 – $73,900** | **None** | Required for low-level whole-body control on G1 and H1 humanoids. |
+| **[Spot SDK (Boston Dynamics)](https://bostondynamics.com/)** | **$75,000+** | **None** | Advanced API for balance and locomotion; requires enterprise license. |
+| **[Flowstate (Intrinsic)](https://intrinsic.ai/)** | **Contact for Quote** | **Demo by request** | Alphabet's AI-enabled motion planning and whole-body force control platform. |
 
 ### Advanced Tools
 
-**Other notable mentions**: Commercial extensions of Pinocchio and various vendor-specific WBC stacks.
+**Other notable mentions**: Commercial extensions of Pinocchio and various vendor-specific WBC stacks from companies like PAL Robotics (TALOS/REEM-C) and Agility Robotics (Digit).
 
 ## Open-Source GitHub Projects
 
