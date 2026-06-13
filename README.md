@@ -100,6 +100,20 @@ We welcome contributions from the community! 🚀
 
 ---
 
+## 📈 Star History
+
+<div align="center">
+   <a href="https://www.star-history.com/?repos=ishandutta2007%2FAwesome-Whole-Body-Control&type=date&legend=bottom-right">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Whole-Body-Control&type=date&theme=dark&legend=bottom-right" />
+      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Whole-Body-Control&type=date&legend=bottom-right" />
+      <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ishandutta2007/Awesome-Whole-Body-Control&type=date&legend=bottom-right" />
+    </picture>
+   </a>
+</div>
+
+---
+
 ## ⚠️ Disclaimer
 
 - This is a community-curated list and does not constitute an endorsement.
