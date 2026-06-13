@@ -5,11 +5,14 @@
 # 🤖 Awesome Whole-Body Control 🦾
 ### The Definitive Ecosystem for Humanoid Robot Dynamics, Locomotion & Manipulation
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Awesome](https://awesome.re/badge.svg)](https://github.com/ishandutta2007/awesome-awesome-awesome)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/stack-of-tasks/pinocchio/graphs/commit-activity)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Humanoid Robotics](https://img.shields.io/badge/Robotics-Humanoid-blue.svg)](https://github.com/topics/humanoid-robot)
+<a href="https://github.com/ishandutta2007?tab=followers">
+  <img alt="followers" title="Follow me on Github" src="https://custom-icon-badges.herokuapp.com/github/followers/ishandutta2007?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white"/>
+</a>
 
 **Curated list of state-of-the-art SaaS platforms, commercial SDKs, and open-source GitHub projects focused on Whole-Body Control (WBC) for humanoid robots.**
 
