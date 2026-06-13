@@ -25,7 +25,7 @@ This section lists commercial platforms and SDKs that provide advanced whole-bod
 
 | Product | Pricing | Free Tier / Limits | Description |
 | :--- | :--- | :--- | :--- |
-| **[NVIDIA GR00T-WBC](https://nvidia.com/)** | Hardware Cost (Jetson) | **Free for Individuals** | Foundation models and Isaac Sim/Lab are free for researchers and small teams. |
+| **[NVIDIA GR00T-WBC](https://nvidia-isaac.github.io/GR00T-WholeBodyControl/)** | Hardware Cost (Jetson) | **Free for Individuals** | Foundation models and Isaac Sim/Lab are free for researchers and small teams. |
 | **[OpenLoong (Dyn-Control)](https://openloong.org.cn/)** | **Free** (Apache 2.0) | **Unlimited** | Open-source control stack for the Qinglong humanoid series. |
 | **[Unitree SDK (EDU)](https://www.unitree.com/)** | **$43,900 – $73,900** | **None** | Required for low-level whole-body control on G1 and H1 humanoids. |
 | **[Spot SDK (Boston Dynamics)](https://bostondynamics.com/)** | **$75,000+** | **None** | Advanced API for balance and locomotion; requires enterprise license. |
