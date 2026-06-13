@@ -23,13 +23,13 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 This section lists commercial platforms and SDKs that provide advanced whole-body control capabilities, often integrated with specific hardware.
 
-| Product | Pricing | Free Tier / Limits | Description |
-| :--- | :--- | :--- | :--- |
-| **[NVIDIA GR00T-WBC](https://nvidia-isaac.github.io/GR00T-WholeBodyControl/)** | Hardware Cost (Jetson) | **Free for Individuals** | Foundation models and Isaac Sim/Lab are free for researchers and small teams. |
-| **[OpenLoong (Dyn-Control)](https://openloong.org.cn/)** | **Free** (Apache 2.0) | **Unlimited** | Open-source control stack for the Qinglong humanoid series. |
-| **[Unitree SDK (EDU)](https://www.unitree.com/)** | **$43,900 – $73,900** | **None** | Required for low-level whole-body control on G1 and H1 humanoids. |
-| **[Spot SDK (Boston Dynamics)](https://bostondynamics.com/)** | **$75,000+** | **None** | Advanced API for balance and locomotion; requires enterprise license. |
-| **[Flowstate (Intrinsic)](https://intrinsic.ai/)** | **Contact for Quote** | **Demo by request** | Alphabet's AI-enabled motion planning and whole-body force control platform. |
+| Product | Company Size (Valuation) | Pricing | Free Tier / Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[NVIDIA GR00T-WBC](https://nvidia-isaac.github.io/GR00T-WholeBodyControl/)** | **~$3.5 Trillion** | Hardware Cost (Jetson) | **Free for Individuals** | Foundation models and Isaac Sim/Lab are free for researchers and small teams. |
+| **[Flowstate (Intrinsic)](https://intrinsic.ai/)** | **~$2.1 Trillion** (Alphabet) | **Contact for Quote** | **Demo by request** | Alphabet's AI-enabled motion planning and whole-body force control platform. |
+| **[Spot SDK (Boston Dynamics)](https://bostondynamics.com/)** | **~$25 Billion** (Est.) | **$75,000+** | **None** | Advanced API for balance and locomotion; requires enterprise license. |
+| **[Unitree SDK (EDU)](https://www.unitree.com/)** | **~$1.5 Billion** | **$43,900 – $73,900** | **None** | Required for low-level whole-body control on G1 and H1 humanoids. |
+| **[OpenLoong (Dyn-Control)](https://openloong.org.cn/)** | **~$140 Million** (Reg. Cap) | **Free** (Apache 2.0) | **Unlimited** | Open-source control stack for the Qinglong humanoid series. |
 
 ### Advanced Tools
 
