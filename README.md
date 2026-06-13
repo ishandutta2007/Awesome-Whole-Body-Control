@@ -37,25 +37,37 @@ This section lists commercial platforms and SDKs that provide advanced whole-bod
 
 ## Open-Source GitHub Projects
 
-### Dedicated Whole-Body Control Frameworks
+This section lists the most active and widely used open-source projects for whole-body control, dynamics, and simulation, sorted by GitHub popularity.
 
-- **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)**  
-  Fast and efficient rigid body dynamics library with state-of-the-art whole-body control algorithms. Widely used as the foundation for humanoid control stacks.
+- **[MuJoCo](https://github.com/google-deepmind/mujoco)** ![GitHub stars](https://img.shields.io/github/stars/google-deepmind/mujoco?style=flat-square)  
+  Advanced physics simulator with state-of-the-art contact dynamics, widely used for training whole-body control policies via reinforcement learning.
 
-- **[Crocoddyl](https://github.com/loco-3d/crocoddyl)**  
-  Optimal control library for complex robotics tasks with excellent support for whole-body control, trajectory optimization, and contact-rich scenarios.
+- **[Drake](https://github.com/RobotLocomotion/drake)** ![GitHub stars](https://img.shields.io/github/stars/RobotLocomotion/drake?style=flat-square)  
+  A C++ toolbox for model-based design and optimization, providing industry-grade tools for control, estimation, and motion planning.
 
-- **[RBDL (Rigid Body Dynamics Library)](https://github.com/rbdl/rbdl)**  
-  Highly efficient C++ library for rigid body dynamics with strong whole-body control applications.
+- **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)** ![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=flat-square)  
+  The industry-standard rigid body dynamics library. Fast, efficient, and the foundation for many humanoid whole-body control stacks.
 
-- **[qpOASES](https://github.com/coin-or/qpOASES)**  
+- **[OCS2](https://github.com/leggedrobotics/ocs2)** ![GitHub stars](https://img.shields.io/github/stars/leggedrobotics/ocs2?style=flat-square)  
+  Open-source Control Software 2 — a powerful toolbox for optimal control and whole-body control of legged robots (ETH Zürich).
+
+- **[Crocoddyl](https://github.com/loco-3d/crocoddyl)** ![GitHub stars](https://img.shields.io/github/stars/loco-3d/crocoddyl?style=flat-square)  
+  Optimal control library for complex robotics tasks with excellent support for trajectory optimization and contact-rich scenarios.
+
+- **[Pink](https://github.com/stephane-caron/pink)** ![GitHub stars](https://img.shields.io/github/stars/stephane-caron/pink?style=flat-square)  
+  A Python library for inverse kinematics and whole-body control built on top of Pinocchio, designed for rapid prototyping.
+
+- **[RBDL (Rigid Body Dynamics Library)](https://github.com/rbdl/rbdl)** ![GitHub stars](https://img.shields.io/github/stars/rbdl/rbdl?style=flat-square)  
+  Highly efficient C++ library for rigid body dynamics calculations, optimized for real-time control.
+
+- **[qpOASES](https://github.com/coin-or/qpOASES)** ![GitHub stars](https://img.shields.io/github/stars/coin-or/qpOASES?style=flat-square)  
   Reliable and fast quadratic programming solver widely used in real-time whole-body control implementations.
 
-- **[eiquadprog](https://github.com/eiquadprog/eiquadprog)**  
-  Efficient C++ quadratic programming solver optimized for whole-body control and constrained optimization.
+- **[RaiSim](https://github.com/raisimTech/raisimLib)** ![GitHub stars](https://img.shields.io/github/stars/raisimTech/raisimLib?style=flat-square)  
+  High-performance physics engine optimized for legged robot simulation and whole-body control research.
 
-- **[Pink](https://github.com/stack-of-tasks/pink)**  
-  Python library for inverse kinematics and whole-body control built on top of Pinocchio.
+- **[eiquadprog](https://github.com/stack-of-tasks/eiquadprog)** ![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/eiquadprog?style=flat-square)  
+  Efficient C++ quadratic programming solver optimized for hierarchical whole-body control.
 
 - **[ARC-OPT WBC](https://github.com/search?q=arc-opt+wbc)**  
   Open-source whole-body control solver with advanced optimization capabilities.
@@ -63,19 +75,8 @@ This section lists commercial platforms and SDKs that provide advanced whole-bod
 - **[OpenWBT](https://github.com/search?q=openwbt)**  
   Open Whole-Body Toolbox for humanoid control with modular architecture.
 
-- **[KungfuBot / PBHC (Priority-Based Hierarchical Control)](https://github.com/search?q=pbhc+humanoid)**  
+- **[KungfuBot / PBHC](https://github.com/search?q=pbhc+humanoid)**  
   Priority-based hierarchical whole-body control frameworks for dynamic humanoid locomotion.
-
-- **[OCS2 (ETH Zürich)](https://github.com/leggedrobotics/ocs2)**  
-  Open-source Control Software 2 — a powerful toolbox for optimal control and whole-body control of legged robots.
-
-### Additional Strong Open-Source Options
-
-- **[raisim](https://github.com/leggedrobotics/raisim)** — High-performance physics engine with WBC examples.
-- **[Drake](https://github.com/RobotLocomotion/drake)** — Model-based design and control toolbox with strong robotics support.
-- **[MuJoCo](https://github.com/google-deepmind/mujoco)** — Advanced physics simulator with whole-body control research examples.
-- **[Cartpole / Humanoid WBC benchmarks](https://github.com/search?q=humanoid+wbc+benchmark)** — Many community repositories.
-- **Stack-of-Tasks** ecosystem (Pinocchio + Pink + TSID) for hierarchical control.
 
 **Frameworks for building custom WBC systems**: Combine **Pinocchio** + **Crocoddyl** + **qpOASES** with **ROS2** and simulators (MuJoCo, Isaac Gym) for full humanoid whole-body control stacks.
 
