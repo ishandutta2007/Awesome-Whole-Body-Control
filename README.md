@@ -68,14 +68,32 @@ The heart of the robotics research community. These libraries provide the mathem
 - **[Pinocchio](https://github.com/stack-of-tasks/pinocchio)** [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/pinocchio?style=social&color=white)](https://github.com/stack-of-tasks/pinocchio/stargazers)  
   ⚡ *Blazing fast rigid body dynamics.* The core library for calculating Jacobians, mass matrices, and kinematics.
 
+- **[MIT Cheetah-Software](https://github.com/mit-biomimetics/Cheetah-Software)** [![GitHub stars](https://img.shields.io/github/stars/mit-biomimetics/Cheetah-Software?style=social&color=white)](https://github.com/mit-biomimetics/Cheetah-Software/stargazers)  
+  🐆 *State-of-the-art dynamic locomotion.* High-performance convex MPC and WBC stack for legged and humanoid robots.
+
+- **[RSL-RL](https://github.com/leggedrobotics/rsl_rl)** [![GitHub stars](https://img.shields.io/github/stars/leggedrobotics/rsl_rl?style=social&color=white)](https://github.com/leggedrobotics/rsl_rl/stargazers)  
+  🤖 *Fast Reinforcement Learning for Legged Robots.* Highly parallelized on-policy algorithms for whole-body locomotion.
+
+- **[CasADi](https://github.com/casadi/casadi)** [![GitHub stars](https://img.shields.io/github/stars/casadi/casadi?style=social&color=white)](https://github.com/casadi/casadi/stargazers)  
+  📐 *Algorithmic Differentiation & Numeric Optimization.* General-purpose tool for non-linear optimal control and WBC.
+
+- **[OSQP](https://github.com/osqp/osqp)** [![GitHub stars](https://img.shields.io/github/stars/osqp/osqp?style=social&color=white)](https://github.com/osqp/osqp/stargazers)  
+  ⚡ *Operator Splitting QP Solver.* Fast, robust convex quadratic programming solver ubiquitous in real-time MPC and WBC.
+
 - **[OCS2](https://github.com/leggedrobotics/ocs2)** [![GitHub stars](https://img.shields.io/github/stars/leggedrobotics/ocs2?style=social&color=white)](https://github.com/leggedrobotics/ocs2/stargazers)  
   📉 *Optimal Control for Switched Systems.* Specialized in legged robot locomotion and whole-body tasks.
 
 - **[Crocoddyl](https://github.com/loco-3d/crocoddyl)** [![GitHub stars](https://img.shields.io/github/stars/loco-3d/crocoddyl?style=social&color=white)](https://github.com/loco-3d/crocoddyl/stargazers)  
   🧬 *Contact-consistent trajectory optimization.* Built on Pinocchio for highly dynamic maneuvers.
 
+- **[DART](https://github.com/dartsim/dart)** [![GitHub stars](https://img.shields.io/github/stars/dartsim/dart?style=social&color=white)](https://github.com/dartsim/dart/stargazers)  
+  🎯 *Dynamic Animation and Robotics Toolkit.* Multi-body dynamic simulator tailored for kinematic control and animation.
+
 - **[Pink](https://github.com/stephane-caron/pink)** [![GitHub stars](https://img.shields.io/github/stars/stephane-caron/pink?style=social&color=white)](https://github.com/stephane-caron/pink/stargazers)  
   🐍 *Pythonic Inverse Kinematics.* Easy-to-use WBC for rapid prototyping and simulation.
+
+- **[qpsolvers](https://github.com/stephane-caron/qpsolvers)** [![GitHub stars](https://img.shields.io/github/stars/stephane-caron/qpsolvers?style=social&color=white)](https://github.com/stephane-caron/qpsolvers/stargazers)  
+  ⚙️ *Unified QP Solvers in Python.* Common interface across multiple quadratic programming solvers for robot control.
 
 - **[RBDL](https://github.com/rbdl/rbdl)** [![GitHub stars](https://img.shields.io/github/stars/rbdl/rbdl?style=social&color=white)](https://github.com/rbdl/rbdl/stargazers)  
   📦 *Rigid Body Dynamics Library.* Lightweight and efficient C++ implementation for real-time control.
@@ -85,6 +103,12 @@ The heart of the robotics research community. These libraries provide the mathem
 
 - **[RaiSim](https://github.com/raisimTech/raisimLib)** [![GitHub stars](https://img.shields.io/github/stars/raisimTech/raisimLib?style=social&color=white)](https://github.com/raisimTech/raisimLib/stargazers)  
   🐕 *Legged Robotics Physics.* Optimized for fast simulation of complex contact scenarios.
+
+- **[TSID](https://github.com/stack-of-tasks/tsid)** [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/tsid?style=social&color=white)](https://github.com/stack-of-tasks/tsid/stargazers)  
+  🎛️ *Task Space Inverse Dynamics.* Efficient C++ whole-body control library implementing hierarchical QP.
+
+- **[iDynTree](https://github.com/robotology/idyntree)** [![GitHub stars](https://img.shields.io/github/stars/robotology/idyntree?style=social&color=white)](https://github.com/robotology/idyntree/stargazers)  
+  🌲 *Multi-body dynamics for humanoid robots.* Dynamics and kinematics library supporting whole-body momentum control.
 
 - **[eiquadprog](https://github.com/stack-of-tasks/eiquadprog)** [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/eiquadprog?style=social&color=white)](https://github.com/stack-of-tasks/eiquadprog/stargazers)  
   🔢 *Efficient Quadratic Programming.* Optimized for hierarchical whole-body control and constrained tasks.
