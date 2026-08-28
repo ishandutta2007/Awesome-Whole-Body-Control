@@ -40,8 +40,18 @@ Commercial platforms and SDKs offering industry-grade Whole-Body Control interfa
 | **[NVIDIA GR00T-WBC](https://nvidia-isaac.github.io/GR00T-WholeBodyControl/)** | **~$3.5 Trillion** | Hardware Cost | **Free for Individuals** | Advanced foundation models and Isaac Sim/Lab for research. |
 | **[Flowstate (Intrinsic)](https://intrinsic.ai/)** | **~$2.1 Trillion** | **Contact Quote** | **Demo by request** | AI-enabled motion planning and whole-body force control. |
 | **[Spot SDK (Boston Dynamics)](https://bostondynamics.com/)** | **~$25 Billion** | **$75,000+** | **None** | High-level API for balance, locomotion, and manipulation. |
+| **[UBTECH Walker SDK](https://www.ubtrobot.com/)** | **~$5.0 Billion** | **Commercial Quote** | **None** | Coordinated whole-body motion control and multi-modal interaction suite. |
+| **[Figure OS (Figure AI)](https://www.figure.ai/)** | **~$2.6 Billion** | **Enterprise License** | **None** | Autonomous whole-body dynamic control stack for Figure humanoids. |
+| **[Agility Arc (Agility Robotics)](https://agilityrobotics.com/)** | **~$1.7 Billion** | **$250,000+/yr** (Lease) | **None** | Cloud automation platform and whole-body locomotion/manipulation API for Digit. |
 | **[Unitree SDK (EDU)](https://www.unitree.com/)** | **~$1.5 Billion** | **$43,900+** | **None** | Low-level WBC access for G1 and H1 humanoid platforms. |
+| **[1X Studio / NEO OS (1X)](https://www.1x.tech/)** | **~$1.0 Billion** | **Enterprise Quote** | **None** | Whole-body locomotion, manipulation, and teleoperation control stack for NEO and EVE. |
+| **[Carbon OS (Sanctuary AI)](https://sanctuary.ai/)** | **~$500 Million** | **Enterprise Quote** | **None** | Cognitive architecture and whole-body teleoperation & dexterity control for Phoenix. |
+| **[Fourier SDK (Fourier Intelligence)](https://www.fftai.com/)** | **~$300 Million** | **$40,000+** | **None** | Dynamic whole-body balance and locomotion control platform for GR-1/GR-2 humanoids. |
+| **[Apollo OS (Apptronik)](https://apptronik.com/)** | **~$200 Million** | **Enterprise Quote** | **None** | Whole-body control architecture and mobility software suite for Apollo humanoid. |
+| **[ANYmal SDK (ANYbotics)](https://www.anybotics.com/)** | **~$150 Million** | **$150,000+** | **None** | Industrial whole-body locomotion and torque control SDK for legged robots. |
 | **[OpenLoong (Dyn-Control)](https://openloong.org.cn/)** | **~$140 Million** | **Free** (Apache 2.0) | **Unlimited** | Control stack for the Qinglong humanoid research series. |
+| **[TALOS WBC SDK (PAL Robotics)](https://pal-robotics.com/)** | **~$50 Million** | **Custom Quote** | **ROS Wrapper Open** | Stack-of-tasks whole-body torque and kinematic control for TALOS and TIAGo. |
+| **[Tritium OS (Engineered Arts)](https://www.engineeredarts.co.uk/)** | **~$30 Million** | **Subscription** | **Demo by request** | Cloud operating system for real-time expressive whole-body humanoid animation and control. |
 
 ---
 
