@@ -35,6 +35,8 @@ This repository is a comprehensive guide to the **Whole-Body Control (WBC)** eco
 
 Commercial platforms and SDKs offering industry-grade Whole-Body Control interfaces, typically bundled with high-performance hardware.
 
+> 📊 **Market Insights**: The global humanoid robotics and whole-body control software market is estimated at **~$3.5B (2024)** and forecasted to reach **$38B+ by 2035** (CAGR ~35%). The sector is currently **moderately fragmented** among early hardware OEMs and proprietary stacks, but rapidly consolidating into a **winner-take-all / concentrated** dynamic around dominant foundation-model middleware, standard simulation platforms, and cloud robotics ecosystems.
+
 | Product | Company Size (Valuation) | Pricing | Free Tier / Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
 | **[NVIDIA GR00T-WBC](https://nvidia-isaac.github.io/GR00T-WholeBodyControl/)** | **~$3.5 Trillion** | Hardware Cost | **Free for Individuals** | Advanced foundation models and Isaac Sim/Lab for research. |
