@@ -113,6 +113,9 @@ The heart of the robotics research community. These libraries provide the mathem
 - **[eiquadprog](https://github.com/stack-of-tasks/eiquadprog)** [![GitHub stars](https://img.shields.io/github/stars/stack-of-tasks/eiquadprog?style=social&color=white)](https://github.com/stack-of-tasks/eiquadprog/stargazers)  
   🔢 *Efficient Quadratic Programming.* Optimized for hierarchical whole-body control and constrained tasks.
 
+- **[OmniSim](https://github.com/omnilink-tech/omnisim)** [![GitHub stars](https://img.shields.io/github/stars/omnilink-tech/omnisim?style=social&color=white)](https://github.com/omnilink-tech/omnisim/stargazers)  
+  🌐 *Robotics Simulator for Coding Agents.* HTTP/JSON + MCP control, Newton physics, wgpu rendering, and ROS 2 integration.
+
 ---
 
 ## 🤝 How to Contribute
